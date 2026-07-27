@@ -104,7 +104,7 @@ function CopyCode({ code }: { code: string }) {
 
 function Footer() {
   const { catalog } = useI18n()
-  return <footer className="site-footer"><div className="container footer-inner"><div className="footer-brand"><span className="brand-mark">H</span><div><b>Happy Mario World Reforged</b><small>{catalog.footer.format}</small></div></div><div className="footer-meta"><span>ENGINE <b>THUNDER ENGINE</b></span><span>BY <b>快乐mario9 · 绿色的糖果</b></span></div><a href={game.forum} target="_blank" rel="noreferrer" className="footer-link">{catalog.footer.discussion} <ExternalLink size={14} /></a></div><div className="container footer-bottom"><span>{catalog.footer.disclaimer}</span><span>UPDATED 2026.07.22</span></div></footer>
+  return <footer className="site-footer"><div className="container footer-inner"><div className="footer-brand"><span className="brand-mark">H</span><div><b>Happy Mario World Reforged</b><small>{catalog.footer.format}</small></div></div><div className="footer-meta"><span>ENGINE <b>THUNDER ENGINE</b></span><span>BY <b>{catalog.home.creatorName} · {catalog.home.testerName}</b></span></div><a href={game.forum} target="_blank" rel="noreferrer" className="footer-link">{catalog.footer.discussion} <ExternalLink size={14} /></a></div><div className="container footer-bottom"><span>{catalog.footer.disclaimer}</span><span>UPDATED 2026.07.22</span></div></footer>
 }
 
 export default App
