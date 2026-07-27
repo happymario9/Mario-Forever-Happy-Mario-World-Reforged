@@ -6,6 +6,28 @@ export type ResourceLink = {
   code?: string
 }
 
+export type World = {
+  number: number
+  name: string
+  theme: string
+  color: string
+  levels: number
+  note: string
+  preview: string
+  gallery: string[]
+}
+
+const asset = (path: string) => `${import.meta.env.BASE_URL}${path}`
+
+export const assets = {
+  titleBackground: asset('title_bg.png'),
+  logo: asset('logo_hd.png'),
+  title: asset('title_hd.png'),
+  happymario9: asset('happymario9.jfif'),
+  greenSweet: asset('greensweet.png'),
+  preview: (name: string) => asset(`preview/${name}`),
+}
+
 export type Release = {
   version: string
   date: string
@@ -26,15 +48,15 @@ export const game = {
   download: 'https://pan.baidu.com/s/1X5TOxB4vtWw3b8PLY3gAvg?pwd=nidc', downloadCode: 'nidc',
 }
 
-export const worlds = [
-  { number: 1, name: 'WORLD 1', theme: '草原起点', color: 'green', levels: 4, note: '第一世界 · 基础关卡' },
-  { number: 2, name: 'WORLD 2', theme: '水管与探路', color: 'blue', levels: 4, note: '第二世界 · 可通过子弹探路' },
-  { number: 3, name: 'WORLD 3', theme: '城堡前线', color: 'red', levels: 4, note: '第三世界 · 含城堡毁灭动画' },
-  { number: 4, name: 'WORLD 4', theme: '过场之后', color: 'purple', levels: 4, note: '第四世界 · 含附加关卡' },
-  { number: 5, name: 'WORLD 5', theme: '进阶旅途', color: 'orange', levels: 4, note: '第五世界 · 入口过场优化' },
-  { number: 6, name: 'WORLD 6', theme: '冰面考验', color: 'cyan', levels: 4, note: '第六世界 · 完成动画调整' },
-  { number: 7, name: 'WORLD 7', theme: '高压地带', color: 'pink', levels: 4, note: '第七世界 · 7-4 已削弱' },
-  { number: 8, name: 'WORLD 8', theme: '最终前线', color: 'navy', levels: 4, note: '第八世界 · V0.8.0 新增' },
+export const worlds: World[] = [
+  { number: 1, name: 'WORLD 1', theme: '草原起点', color: 'green', levels: 4, note: '第一世界 · 基础关卡', preview: assets.preview('1-1.png'), gallery: ['1-1.png', '1-2.png', '1-3.png', '1-4.png'].map(assets.preview) },
+  { number: 2, name: 'WORLD 2', theme: '水管与探路', color: 'blue', levels: 4, note: '第二世界 · 可通过子弹探路', preview: assets.preview('2-1.png'), gallery: ['2-1.png', '2-2.png', '2-3.png', '2-4.png'].map(assets.preview) },
+  { number: 3, name: 'WORLD 3', theme: '城堡前线', color: 'red', levels: 4, note: '第三世界 · 含城堡毁灭动画', preview: assets.preview('3-1.png'), gallery: ['3-1.png', '3-2.png', '3-3.png', '3-4.png'].map(assets.preview) },
+  { number: 4, name: 'WORLD 4', theme: '过场之后', color: 'purple', levels: 4, note: '第四世界 · 含附加关卡', preview: assets.preview('4-1.png'), gallery: ['4-1.png', '4-2.png', '4-3.png', '4-4.png'].map(assets.preview) },
+  { number: 5, name: 'WORLD 5', theme: '进阶旅途', color: 'orange', levels: 4, note: '第五世界 · 入口过场优化', preview: assets.preview('5-1.png'), gallery: ['5-1.png', '5-2.png', '5-3.png', '5-4.png'].map(assets.preview) },
+  { number: 6, name: 'WORLD 6', theme: '冰面考验', color: 'cyan', levels: 4, note: '第六世界 · 完成动画调整', preview: assets.preview('6-1.png'), gallery: ['6-1.png', '6-2.png', '6-3.png', '6-4.png'].map(assets.preview) },
+  { number: 7, name: 'WORLD 7', theme: '高压地带', color: 'pink', levels: 4, note: '第七世界 · 7-4 已削弱', preview: assets.preview('7-1.png'), gallery: ['7-1.png', '7-2.png', '7-3.png', '7-4.png'].map(assets.preview) },
+  { number: 8, name: 'WORLD 8', theme: '最终前线', color: 'navy', levels: 4, note: '第八世界 · V0.8.0 新增', preview: assets.preview('8-1.png'), gallery: ['8-1.png', '8-2.png', '8-3.png', '8-4.png'].map(assets.preview) },
 ]
 
 export const releases: Release[] = [
