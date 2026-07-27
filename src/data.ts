@@ -25,6 +25,7 @@ export const assets = {
   title: asset('title_hd.png'),
   happymario9: asset('happymario9.jfif'),
   greenSweet: asset('greensweet.png'),
+  icon: asset('icon.png'),
   preview: (name: string) => asset(`preview/${name}`),
 }
 

@@ -31,7 +31,7 @@ function pageTitle(path: string, catalog: Catalog) { return path.includes('world
 function Header({ menuOpen, setMenuOpen }: { menuOpen: boolean; setMenuOpen: (value: boolean) => void }) {
   const { catalog, locale, setLocale } = useI18n()
   return <header className="site-header"><div className="header-inner">
-    <Link to="/" className="brand" aria-label={catalog.nav.backHome}><span className="brand-mark">H</span><span><b>HMWR</b><small>HAPPY MARIO WORLD REFORGED</small></span></Link>
+    <Link to="/" className="brand" aria-label={catalog.nav.backHome}><span className="brand-mark"><img src={assets.icon} alt="" /></span><span><b>HMWR</b><small>HAPPY MARIO WORLD REFORGED</small></span></Link>
     <button className="menu-toggle" onClick={() => setMenuOpen(!menuOpen)} aria-label={menuOpen ? catalog.nav.closeMenu : catalog.nav.openMenu}>{menuOpen ? <X size={21} /> : <Menu size={21} />}</button>
     <nav className={`main-nav ${menuOpen ? 'open' : ''}`} aria-label={catalog.nav.main}>
       <NavLink to="/" className={linkClass} end><Gamepad2 size={16} /> {catalog.nav.home}</NavLink>
@@ -104,7 +104,7 @@ function CopyCode({ code }: { code: string }) {
 
 function Footer() {
   const { catalog } = useI18n()
-  return <footer className="site-footer"><div className="container footer-inner"><div className="footer-brand"><span className="brand-mark">H</span><div><b>Happy Mario World Reforged</b><small>{catalog.footer.format}</small></div></div><div className="footer-meta"><span>ENGINE <b>THUNDER ENGINE</b></span><span>BY <b>{catalog.home.creatorName} · {catalog.home.testerName}</b></span></div><a href={game.forum} target="_blank" rel="noreferrer" className="footer-link">{catalog.footer.discussion} <ExternalLink size={14} /></a></div><div className="container footer-bottom"><span>{catalog.footer.disclaimer}</span><span>UPDATED 2026.07.22</span></div></footer>
+  return <footer className="site-footer"><div className="container footer-inner"><div className="footer-brand"><span className="brand-mark"><img src={assets.icon} alt="" /></span><div><b>Happy Mario World Reforged</b><small>{catalog.footer.format}</small></div></div><div className="footer-meta"><span>ENGINE <b>THUNDER ENGINE</b></span><span>BY <b>{catalog.home.creatorName} · {catalog.home.testerName}</b></span></div><a href={game.forum} target="_blank" rel="noreferrer" className="footer-link">{catalog.footer.discussion} <ExternalLink size={14} /></a></div><div className="container footer-bottom"><span>{catalog.footer.disclaimer}</span><span>UPDATED 2026.07.22</span></div></footer>
 }
 
 export default App
