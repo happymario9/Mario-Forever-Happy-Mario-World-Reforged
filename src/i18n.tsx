@@ -26,10 +26,11 @@ export type Catalog = {
     eyebrow: string; title: string; description: string; log: string; trail: string; versions: string; days: string; worlds: string; current: string; period: string
     additions: string; fixes: string; adjustments: string; download: string; code: string; items: ReleaseCopy[]
   }
-  downloads: {
-    eyebrow: string; title: string; description: string; latestBuild: string; download: string; code: string; copied: string; copy: string
-    resources: string; resourcesTitle: string; resourcesDescription: string; archive: string; archiveTitle: string; viewChangelog: string; downloadVersion: string
-  }
+ downloads: {
+   eyebrow: string; title: string; description: string; latestBuild: string; download: string; code: string; copied: string; copy: string
+    github: string; backup: string
+   resources: string; resourcesTitle: string; resourcesDescription: string; archive: string; archiveTitle: string; viewChangelog: string; downloadVersion: string
+ }
   resources: ResourceCopy[]
   footer: { format: string; discussion: string; disclaimer: string }
 }
@@ -62,7 +63,7 @@ const en: Catalog = {
       { additions: ['World 1'], fixes: [], adjustments: ['Level select not supported yet', 'Do not use the save room feature yet; saves are not available'] },
     ],
   },
-  downloads: { eyebrow: 'GET THE GAME / 03', title: 'Download, listen, join the discussion', description: 'The latest build is public. Check the version and extraction code before downloading, and share your feedback in the original thread.', latestBuild: 'LATEST BUILD', download: 'Download from Baidu Netdisk', code: 'Extraction code', copied: 'Copied', copy: 'Copy', resources: 'MORE RESOURCES', resourcesTitle: 'Play it all the way through', resourcesDescription: 'Download the game, listen to the BGM, or join the original thread.', archive: 'ARCHIVE', archiveTitle: 'Previous versions', viewChangelog: 'View patch notes', downloadVersion: 'Download {version}' },
+  downloads: { eyebrow: 'GET THE GAME / 03', title: 'Download, listen, join the discussion', description: 'The latest build is on GitHub. A Baidu Netdisk mirror is also available; mind the extraction code if you use it. Share your feedback in the original thread.', latestBuild: 'LATEST BUILD', download: 'Download from Baidu Netdisk', github: 'Get the latest on GitHub', backup: 'Backup mirror', code: 'Extraction code', copied: 'Copied', copy: 'Copy', resources: 'MORE RESOURCES', resourcesTitle: 'Play it all the way through', resourcesDescription: 'Download the game, listen to the BGM, or join the original thread.', archive: 'ARCHIVE', archiveTitle: 'Previous versions', viewChangelog: 'View patch notes', downloadVersion: 'Download {version}' },
   resources: [{ label: 'Download latest', detail: 'Baidu Netdisk · V0.8.0' }, { label: 'Listen to the BGM playlist', detail: 'NetEase Cloud Music · Searchable tracks only' }, { label: 'Visit original thread', detail: 'Mario Forever community · Project discussion' }],
   footer: { format: 'Mario Forever fan level collection · V0.8.0', discussion: 'Original thread', disclaimer: 'This is a non-commercial fan work and is not affiliated with Nintendo / Mario Forever.' },
 }
@@ -84,7 +85,7 @@ const zh: Catalog = {
       { additions: ['第七世界'], fixes: [], adjustments: ['根据反馈，7-3、7-4 难度将在后续版本小幅削弱'] }, { additions: ['第六世界'], fixes: [], adjustments: ['第五世界完成动画'] }, { additions: ['第五世界'], fixes: [], adjustments: ['W1-W4 第三关进入城堡优化', '制作人员相关修改'] }, { additions: ['第四世界', '附加关卡（By 绿色的糖果）', 'W1-W4 世界完成过场场景'], fixes: ['3-3 和 3-4 一些细节问题'], adjustments: ['默认命数 10 → 9', '3-3 部分关卡内容调整'] }, { additions: ['第三世界', '通关存档，选关画面显示星星标识', '前三世界城堡毁灭动画'], fixes: ['1-4 和 2-4 库巴战触发问题'], adjustments: ['标题画面与游戏图标重置'] }, { additions: ['第二世界', '简单的选关界面'], fixes: ['修复 1-2 出水管无标题的问题'], adjustments: ['1-2 现在可以通过子弹探路'] }, { additions: ['第一世界'], fixes: [], adjustments: ['暂不支持关卡选择', '暂不要使用保存房间功能，暂无存档'] },
     ],
   },
-  downloads: { eyebrow: 'GET THE GAME / 03', title: '下载、聆听、加入讨论', description: '最新版已经公开。下载前请留意版本号与提取码，也欢迎回到原帖留下你的体验反馈。', latestBuild: 'LATEST BUILD', download: '百度网盘下载', code: '提取码', copied: '已复制', copy: '复制', resources: 'MORE RESOURCES', resourcesTitle: '一起把作品玩完整', resourcesDescription: '下载游戏，也可以收听本作 BGM 或加入原帖讨论。', archive: 'ARCHIVE', archiveTitle: '历史版本', viewChangelog: '查看更新日志', downloadVersion: '下载 {version}' },
+  downloads: { eyebrow: 'GET THE GAME / 03', title: '下载、聆听、加入讨论', description: '最新版已在 GitHub 公开，百度网盘作为备用镜像（需提取码）。也欢迎回到原帖留下你的体验反馈。', latestBuild: 'LATEST BUILD', download: '百度网盘下载', github: '从 GitHub 获取最新版', backup: '备用镜像', code: '提取码', copied: '已复制', copy: '复制', resources: 'MORE RESOURCES', resourcesTitle: '一起把作品玩完整', resourcesDescription: '下载游戏，也可以收听本作 BGM 或加入原帖讨论。', archive: 'ARCHIVE', archiveTitle: '历史版本', viewChangelog: '查看更新日志', downloadVersion: '下载 {version}' },
   resources: [{ label: '下载最新版', detail: '百度网盘 · V0.8.0' }, { label: '收听 BGM 歌单', detail: '网易云音乐 · 仅含可查曲目' }, { label: '访问原帖', detail: 'Mario Forever 中文社区 · 作品讨论' }],
   footer: { format: 'Mario Forever 同人关卡合集 · V0.8.0', discussion: '原帖讨论', disclaimer: '本项目为非商业同人作品，与 Nintendo / Mario Forever 官方无关。' },
 }

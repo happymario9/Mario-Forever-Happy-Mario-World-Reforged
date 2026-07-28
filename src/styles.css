@@ -31,6 +31,9 @@
 .hero-hud { flex:none; background:rgba(23,48,68,.82); }
 .status-line,.download-flag,.hud-label,h1,.section-kicker,.ticker-label,.bonus-tile span,.bonus-tile i { letter-spacing:0; }
 .download-main h2 em { color:#ffe276; font-style:normal; }
+.channel-backup { margin-top:22px; padding-top:22px; border-top:1px solid rgba(255,255,255,.2); display:flex; flex-direction:column; gap:14px; max-width:470px; }
+.channel-backup-label { color:#c7e7ee; font-family:"Courier New",monospace; font-size:11px; letter-spacing:1px; }
+.channel-backup .pixel-button, .channel-backup .code-row { margin-top:0; }
 .avatar { width:62px; height:62px; display:block; object-fit:cover; background:var(--cream); }
 .world-thumb { height:auto; aspect-ratio:4/3; border-top:2px solid var(--ink); border-bottom:2px solid var(--ink); background:#83cee1; }
 .world-thumb img { width:100%; height:100%; display:block; object-fit:cover; }

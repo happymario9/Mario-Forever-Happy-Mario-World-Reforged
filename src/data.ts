@@ -46,7 +46,8 @@ export const game = {
   engine: 'Thunder Engine', format: '关卡合集', worlds: 8, mainLevels: 32, status: '主要关卡已全部完成',
   author: '快乐mario9', tester: '绿色的糖果', forum: 'https://www.marioforever.net/forum.php?mod=viewthread&tid=3853',
   music: 'https://music.163.com/#/playlist?id=17978954676&uct2=U2FsdGVkX1/AaJJ1xrjcyYYNjIFWz/r21UQlYgx9wzE=',
-  download: 'https://pan.baidu.com/s/1X5TOxB4vtWw3b8PLY3gAvg?pwd=nidc', downloadCode: 'nidc',
+ download: 'https://pan.baidu.com/s/1X5TOxB4vtWw3b8PLY3gAvg?pwd=nidc', downloadCode: 'nidc',
+  github: 'https://github.com/happymario9/Mario-Forever-Happy-Mario-World-Reforged/releases/latest',
 }
 
 export const worlds: World[] = [
