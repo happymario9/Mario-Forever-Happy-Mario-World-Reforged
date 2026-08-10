@@ -42,11 +42,21 @@ export type Release = {
 }
 
 export const game = {
-  title: 'Happy Mario World Reforged', shortTitle: 'HMWR', version: 'V0.8.0', updated: '2026.07.22',
-  engine: 'Thunder Engine', format: '关卡合集', worlds: 8, mainLevels: 32, status: '主要关卡已全部完成',
-  author: '快乐mario9', tester: '绿色的糖果', forum: 'https://www.marioforever.net/forum.php?mod=viewthread&tid=3853',
+  title: 'Happy Mario World Reforged',
+  shortTitle: 'HMWR',
+  version: 'V0.9.0',
+  updated: '2026.08.10',
+  engine: 'Thunder Engine',
+  format: '关卡合集',
+  worlds: 8,
+  mainLevels: 32,
+  status: '主要关卡已全部完成',
+  author: '快乐mario9',
+  tester: '绿色的糖果',
+  forum: 'https://www.marioforever.net/forum.php?mod=viewthread&tid=3853',
   music: 'https://music.163.com/#/playlist?id=17978954676&uct2=U2FsdGVkX1/AaJJ1xrjcyYYNjIFWz/r21UQlYgx9wzE=',
- download: 'https://pan.baidu.com/s/1X5TOxB4vtWw3b8PLY3gAvg?pwd=nidc', downloadCode: 'nidc',
+  download: 'https://pan.baidu.com/s/1qBjWOlJKeItATaAykRMbIg?pwd=725p',
+  downloadCode: '725p',
   github: 'https://github.com/happymario9/Mario-Forever-Happy-Mario-World-Reforged/releases/latest',
 }
 
@@ -62,7 +72,45 @@ export const worlds: World[] = [
 ]
 
 export const releases: Release[] = [
-  { version: 'V0.8.0', date: '2026.07.22', period: '2026/7/14 ~ 2026/7/22', current: true, additions: ['剧情过场：1-1 开始，8-4 结束', '第八世界', '额外关卡：synthetic roto wave（PKMF8 第一轮关卡）', 'Credits 界面'], fixes: ['关卡选择界面世界上下现可自由选择', '修复 4-4 Boss 子弹能被打死的问题', '修复第六世界马里奥能拿脚下冰块摔死的问题'], adjustments: ['默认禁用鼠标点击菜单，可在 Tweaks 设置开启', '5-4 开头、7-2 结尾添加望远镜', '7-1 结尾添加提示', '7-2、7-3 补给调整', '7-4 关卡削弱、Boss 流程和特效调整，并引入音效提示'], href: game.download, code: 'nidc' },
+  {
+    version: 'V0.9.0',
+    date: '2026.08.10',
+    period: '2026/7/23 ~ 2026/8/10',
+    current: true,
+    additions: [
+      'Boss Arena',
+      'Extra Levels - Dark World(?) 1-1',
+      'Extra Levels - Windmill Wave',
+      '角色为路易吉时，剧情和个别关卡会有变化',
+    ],
+    fixes: [
+      '修复 W7 通关界面不能进入 W8 的问题',
+    ],
+    adjustments: [
+      'Credits 界面重做',
+      '在当前关卡返回选关界面时会直接跳到指定选关关卡',
+      '1-2 光源扩大',
+      '5-2 结尾部分削弱',
+      '5-4 前段部分削弱',
+      '6-4 前段部分削弱',
+      '7-3 削弱 CP 段后部分',
+      '7-4 结尾部分略微增强',
+      '8-2 结尾部分削弱',
+      '8-3 调整一些不太符合实际的地方',
+    ],
+    href: game.download,
+    code: '725p',
+  },
+  {
+    version: 'V0.8.0',
+    date: '2026.07.22',
+    period: '2026/7/14 ~ 2026/7/22',
+    additions: ['剧情过场：1-1 开始，8-4 结束', '第八世界', '额外关卡：synthetic roto wave（PKMF8 第一轮关卡）', 'Credits 界面'],
+    fixes: ['关卡选择界面世界上下现可自由选择', '修复 4-4 Boss 子弹能被打死的问题', '修复第六世界马里奥能拿脚下冰块摔死的问题'],
+    adjustments: ['默认禁用鼠标点击菜单，可在 Tweaks 设置开启', '5-4 开头、7-2 结尾添加望远镜', '7-1 结尾添加提示', '7-2、7-3 补给调整', '7-4 关卡削弱、Boss 流程和特效调整，并引入音效提示'],
+    href: 'https://pan.baidu.com/s/1X5TOxB4vtWw3b8PLY3gAvg?pwd=nidc',
+    code: 'nidc',
+  },
   { version: 'V0.7.0', date: '2026.07.13', period: '2026/7/5 ~ 2026/7/13', additions: ['第七世界'], fixes: [], adjustments: ['根据反馈，7-3、7-4 难度将在后续版本小幅削弱'], href: 'https://pan.baidu.com/s/1iZ0hp8lgCRCLIHfFn3AL7Q?pwd=jpt4', code: 'jpt4' },
   { version: 'V0.6.0', date: '2026.07.04', period: '2026/6/25 ~ 2026/7/4', additions: ['第六世界'], fixes: [], adjustments: ['第五世界完成动画'], href: 'https://wwanm.lanzouq.com/i7ym33uedz1c', code: 'h590' },
   { version: 'V0.5.0', date: '2026.06.24', period: '2026/6/15 ~ 2026/6/24', additions: ['第五世界'], fixes: [], adjustments: ['W1-W4 第三关进入城堡优化', '制作人员相关修改'], href: 'https://wwanm.lanzouq.com/iWf3L3ssgrcf', code: 'hmsy' },
@@ -73,7 +121,7 @@ export const releases: Release[] = [
 ]
 
 export const resources: ResourceLink[] = [
-  { label: '下载最新版', href: game.download, detail: '百度网盘 · V0.8.0', kind: 'download', code: game.downloadCode },
+  { label: '下载最新版', href: game.download, detail: '百度网盘 · V0.9.0', kind: 'download', code: game.downloadCode },
   { label: '收听 BGM 歌单', href: game.music, detail: '网易云音乐 · 仅含可查曲目', kind: 'music' },
   { label: '访问原帖', href: game.forum, detail: 'Mario Forever 中文社区 · 作品讨论', kind: 'forum' },
 ]

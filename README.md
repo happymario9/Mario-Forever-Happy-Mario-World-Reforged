@@ -8,8 +8,8 @@
 
 | | |
 |---|---|
-| Current version | **V0.8.0** |
-| Last updated | 2026.07.22 |
+| Current version | **V0.9.0** |
+| Last updated | 2026.08.10 |
 | Engine | Thunder Engine |
 | Worlds / Main levels | 8 / 32 (all main levels complete) |
 | Format | Mario Forever fan level collection |
@@ -23,7 +23,7 @@
 | Web archive (this site) | <https://happymario9.github.io/Mario-Forever-Happy-Mario-World-Reforged/> |
 | Latest download · GitHub Releases | <https://github.com/happymario9/Mario-Forever-Happy-Mario-World-Reforged/releases/latest> |
 | Mario Forever forum thread (original post) | <https://www.marioforever.net/forum.php?mod=viewthread&tid=3853> |
-| Baidu Netdisk mirror · V0.8.0 (code `nidc`) | <https://pan.baidu.com/s/1X5TOxB4vtWw3b8PLY3gAvg?pwd=nidc> |
+| Baidu Netdisk mirror · V0.9.0 (code `725p`) | <https://pan.baidu.com/s/1qBjWOlJKeItATaAykRMbIg?pwd=725p> |
 | BGM playlist · NetEase Cloud Music | <https://music.163.com/#/playlist?id=17978954676&uct2=U2FsdGVkX1/AaJJ1xrjcyYYNjIFWz/r21UQlYgx9wzE=> |
 
 The latest build is published on GitHub Releases. A Baidu Netdisk mirror is also provided above; mind the extraction code if you use it. Share your feedback in the original forum thread.
@@ -45,13 +45,14 @@ This is a first experiment with Mario Forever made in Thunder Engine. Level name
 | World 7 | Rainy Night World |
 | World 8 | Final Castle Challenge |
 
-V0.8.0 also adds the extra level **synthetic roto wave**, the first PKMF8 round, which sits outside the eight main worlds.
+V0.9.0 expands the side content with **Boss Arena**, **Dark World(?) 1-1**, and **Windmill Wave**. Earlier extras such as **synthetic roto wave** remain available outside the eight main worlds.
 
 ## Release history
 
 | Version | Date | Highlights | Download |
 |---|---|---|---|
-| **V0.8.0** (current) | 2026.07.22 | World 8; story cutscenes 1-1 → 8-4; extra level *synthetic roto wave* (PKMF8 round 1); Credits screen; free up/down world selection; fixes to 4-4 Boss and World 6 ice block | [Baidu Netdisk](https://pan.baidu.com/s/1X5TOxB4vtWw3b8PLY3gAvg?pwd=nidc) (code `nidc`) |
+| **V0.9.0** (current) | 2026.08.10 | Boss Arena; extra levels Dark World(?) 1-1 and Windmill Wave; Luigi variations; Credits scene remake; World 7 clear scene fix; multiple balance tweaks | [Baidu Netdisk](https://pan.baidu.com/s/1qBjWOlJKeItATaAykRMbIg?pwd=725p) (code `725p`) |
+| V0.8.0 | 2026.07.22 | World 8; story cutscenes 1-1 → 8-4; extra level *synthetic roto wave* (PKMF8 round 1); Credits screen; free up/down world selection; fixes to 4-4 Boss and World 6 ice block | [Baidu Netdisk](https://pan.baidu.com/s/1X5TOxB4vtWw3b8PLY3gAvg?pwd=nidc) (code `nidc`) |
 | V0.7.0 | 2026.07.13 | World 7; 7-3 / 7-4 difficulty to be reduced in a later version | [Baidu Netdisk](https://pan.baidu.com/s/1iZ0hp8lgCRCLIHfFn3AL7Q?pwd=jpt4) (code `jpt4`) |
 | V0.6.0 | 2026.07.04 | World 6; World 5 completion animation | [LanZou](https://wwanm.lanzouq.com/i7ym33uedz1c) (code `h590`) |
 | V0.5.0 | 2026.06.24 | World 5; optimized W1-W4 castle entry; maker info updates | [LanZou](https://wwanm.lanzouq.com/iWf3L3ssgrcf) (code `hmsy`) |
