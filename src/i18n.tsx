@@ -39,14 +39,14 @@ const en: Catalog = {
   localeName: 'English',
   metaDescription: 'Happy Mario World Reforged: an evolving Mario Forever fan level collection.',
   pageTitles: { home: 'Project Archive', worlds: 'Level Archive', releases: 'Patch Notes', downloads: 'Downloads & Resources' },
-  nav: { home: 'Home', worlds: 'Level Archive', releases: 'Patch Notes', downloads: 'Downloads', main: 'Main navigation', backHome: 'Back to home', closeMenu: 'Close navigation menu', openMenu: 'Open navigation menu', latestDownload: 'Download V0.9.0', language: 'Language' },
+  nav: { home: 'Home', worlds: 'Level Archive', releases: 'Patch Notes', downloads: 'Downloads', main: 'Main navigation', backHome: 'Back to home', closeMenu: 'Close navigation menu', openMenu: 'Open navigation menu', latestDownload: 'Download V1.0.0', language: 'Language' },
   home: {
-    status: 'PLAYABLE NOW · BUILD 0.9.0',
-    description: 'A remastered fan level collection for Mario Forever, built from the Happy Mario World template. Eight worlds, thirty-two main levels, and ongoing updates.',
+    status: 'PLAYABLE NOW · BUILD 1.0.0',
+    description: 'A remastered fan level collection for Mario Forever, built from the Happy Mario World template. Eight worlds and thirty-two main levels, with all updates complete.',
     download: 'Download latest',
     viewWorlds: 'View level archive',
     latestUpdate: 'LATEST UPDATE',
-    update: 'V0.9.0 · Boss Arena, extra levels, and Luigi variations are live',
+    update: 'V1.0.0 · Deadly Level, Rain Road, and a refactored level selection scene',
     viewChangelog: 'View full patch notes',
     project: 'THE PROJECT',
     overviewTitle: 'A level collection still growing',
@@ -75,7 +75,7 @@ const en: Catalog = {
     testerRole: 'Level creator · Testing',
     ready: 'READY PLAYER?',
     ctaTitle: 'Start your Reforged journey',
-    currentVersion: 'Current version V0.9.0 · Updated 2026.08.10',
+    currentVersion: 'Current version V1.0.0 · Updated 2026.09.30',
     getGame: 'Get the game',
   },
   worlds: {
@@ -91,7 +91,7 @@ const en: Catalog = {
     currentDescription: 'Contains {levels} main levels. Actual difficulty does not perfectly match the world number, so enter the challenge whenever you are ready.',
     bonus: 'BONUS STAGE',
     bonusTitle: 'More routes beyond the main path',
-    bonusDescription: 'V0.9.0 expands the side content with <b>Boss Arena</b>, <b>Dark World(?) 1-1</b>, and <b>Windmill Wave</b>, while earlier extras such as synthetic roto wave remain available outside the eight main worlds.',
+    bonusDescription: 'V1.0.0 adds <b>Deadly Level</b> and <b>Rain Road</b>. Earlier side content, including Boss Arena, Dark World(?) 1-1, Windmill Wave, and synthetic roto wave, remains available outside the eight main worlds.',
     extra: 'EXTRA',
     round: 'BOSS ARENA / EXTRA LEVELS',
     items: [
@@ -107,7 +107,7 @@ const en: Catalog = {
   },
   releases: {
     eyebrow: 'PATCH NOTES / 02',
-    title: 'Updated all the way to V0.9.0',
+    title: 'Updated all the way to V1.0.0',
     description: 'From a first-world experiment to eight complete worlds and more side content. Every addition, fix, and adjustment is recorded here.',
     log: 'DEVELOPMENT LOG',
     trail: 'Update trail',
@@ -122,6 +122,11 @@ const en: Catalog = {
     download: 'Download this version',
     code: 'Code',
     items: [
+      {
+        additions: ['Extra Levels - Deadly Level', 'Extra Levels - Rain Road'],
+        fixes: [],
+        adjustments: ['Refactored the level selection scene'],
+      },
       {
         additions: [
           'Boss Arena',
@@ -179,12 +184,12 @@ const en: Catalog = {
     downloadVersion: 'Download {version}',
   },
   resources: [
-    { label: 'Download latest', detail: 'Baidu Netdisk · V0.9.0' },
+    { label: 'Download latest', detail: 'Baidu Netdisk · V1.0.0' },
     { label: 'Listen to the BGM playlist', detail: 'NetEase Cloud Music · Searchable tracks only' },
     { label: 'Visit original thread', detail: 'Mario Forever community · Project discussion' },
   ],
   footer: {
-    format: 'Mario Forever fan level collection · V0.9.0',
+    format: 'Mario Forever fan level collection · V1.0.0',
     discussion: 'Original thread',
     disclaimer: 'This is a non-commercial fan work and is not affiliated with Nintendo / Mario Forever.',
   },
@@ -194,14 +199,14 @@ const zh: Catalog = {
   localeName: '简体中文',
   metaDescription: 'Happy Mario World Reforged：一个持续更新的 Mario Forever 同人关卡合集。',
   pageTitles: { home: '作品档案', worlds: '关卡档案', releases: '版本日志', downloads: '下载与资料' },
-  nav: { home: '作品首页', worlds: '关卡档案', releases: '版本日志', downloads: '下载资料', main: '主导航', backHome: '返回首页', closeMenu: '关闭导航菜单', openMenu: '打开导航菜单', latestDownload: '下载 V0.9.0', language: '语言' },
+  nav: { home: '作品首页', worlds: '关卡档案', releases: '版本日志', downloads: '下载资料', main: '主导航', backHome: '返回首页', closeMenu: '关闭导航菜单', openMenu: '打开导航菜单', latestDownload: '下载 V1.0.0', language: '语言' },
   home: {
-    status: '现在可玩 · BUILD 0.9.0',
-    description: '以 Happy Mario World 为模板重新打磨的 Mario Forever 同人关卡合集。八个世界，三十二个主要关卡，持续更新中。',
+    status: '现在可玩 · BUILD 1.0.0',
+    description: '以 Happy Mario World 为模板重新打磨的 Mario Forever 同人关卡合集。八个世界，三十二个主要关卡，已更新完毕。',
     download: '下载最新版',
     viewWorlds: '查看关卡档案',
     latestUpdate: 'LATEST UPDATE',
-    update: 'V0.9.0 · Boss Arena、额外关卡与路易吉差异化已上线',
+    update: 'V1.0.0 · 新增 Deadly Level、Rain Road，重构选关界面',
     viewChangelog: '查看完整更新日志',
     project: 'THE PROJECT',
     overviewTitle: '一份正在长大的关卡合集',
@@ -230,7 +235,7 @@ const zh: Catalog = {
     testerRole: '关卡作者 · 测试',
     ready: 'READY PLAYER?',
     ctaTitle: '开始你的 Reforged 旅途',
-    currentVersion: '当前版本 V0.9.0 · 2026.08.10 更新',
+    currentVersion: '当前版本 V1.0.0 · 2026.09.30 更新',
     getGame: '获取游戏',
   },
   worlds: {
@@ -246,7 +251,7 @@ const zh: Catalog = {
     currentDescription: '包含 {levels} 个主要关卡。实际关卡难度与世界编号不完全对应，准备好后即可进入挑战。',
     bonus: 'BONUS STAGE',
     bonusTitle: '主线之外还有更多路线',
-    bonusDescription: 'V0.9.0 继续扩展支线内容，新增 <b>Boss Arena</b>、<b>Dark World(?) 1-1</b> 与 <b>Windmill Wave</b>；此前的 synthetic roto wave 等额外关卡仍独立于八个主要世界之外。',
+    bonusDescription: 'V1.0.0 新增 <b>Deadly Level</b> 与 <b>Rain Road</b>。此前的 Boss Arena、Dark World(?) 1-1、Windmill Wave 和 synthetic roto wave 等支线内容仍独立于八个主要世界之外。',
     extra: 'EXTRA',
     round: 'BOSS ARENA / EXTRA LEVELS',
     items: [
@@ -262,7 +267,7 @@ const zh: Catalog = {
   },
   releases: {
     eyebrow: 'PATCH NOTES / 02',
-    title: '一路更新到 V0.9.0',
+    title: '一路更新到 V1.0.0',
     description: '从第一世界的试水版本，到八个世界全部完成，再到更多支线内容。这里记录每一次新增、修复和调整。',
     log: 'DEVELOPMENT LOG',
     trail: '更新轨迹',
@@ -277,6 +282,14 @@ const zh: Catalog = {
     download: '下载此版本',
     code: '提取码',
     items: [
+      {
+        additions: [
+          'Extra Levels - Deadly Level（与娱乐赛关卡相比有少量微调，差异可忽略）',
+          'Extra Levels - Rain Road',
+        ],
+        fixes: [],
+        adjustments: ['重构选关界面'],
+      },
       {
         additions: [
           'Boss Arena',
@@ -334,12 +347,12 @@ const zh: Catalog = {
     downloadVersion: '下载 {version}',
   },
   resources: [
-    { label: '下载最新版', detail: '百度网盘 · V0.9.0' },
+    { label: '下载最新版', detail: '百度网盘 · V1.0.0' },
     { label: '收听 BGM 歌单', detail: '网易云音乐 · 仅含可查曲目' },
     { label: '访问原帖', detail: 'Mario Forever 中文社区 · 作品讨论' },
   ],
   footer: {
-    format: 'Mario Forever 同人关卡合集 · V0.9.0',
+    format: 'Mario Forever 同人关卡合集 · V1.0.0',
     discussion: '原帖讨论',
     disclaimer: '本项目为非商业同人作品，与 Nintendo / Mario Forever 官方无关。',
   },

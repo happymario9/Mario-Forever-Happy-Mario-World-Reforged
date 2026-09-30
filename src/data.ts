@@ -32,7 +32,7 @@ export const assets = {
 export type Release = {
   version: string
   date: string
-  period: string
+  period?: string
   additions: string[]
   fixes: string[]
   adjustments: string[]
@@ -44,8 +44,8 @@ export type Release = {
 export const game = {
   title: 'Happy Mario World Reforged',
   shortTitle: 'HMWR',
-  version: 'V0.9.0',
-  updated: '2026.08.10',
+  version: 'V1.0.0',
+  updated: '2026.09.30',
   engine: 'Thunder Engine',
   format: '关卡合集',
   worlds: 8,
@@ -55,8 +55,8 @@ export const game = {
   tester: '绿色的糖果',
   forum: 'https://www.marioforever.net/forum.php?mod=viewthread&tid=3853',
   music: 'https://music.163.com/#/playlist?id=17978954676&uct2=U2FsdGVkX1/AaJJ1xrjcyYYNjIFWz/r21UQlYgx9wzE=',
-  download: 'https://pan.baidu.com/s/1qBjWOlJKeItATaAykRMbIg?pwd=725p',
-  downloadCode: '725p',
+  download: 'https://pan.baidu.com/s/1EOD7O3CZfJ8rFYbvH8a1ww?pwd=ght4',
+  downloadCode: 'ght4',
   github: 'https://github.com/happymario9/Mario-Forever-Happy-Mario-World-Reforged/releases/latest',
 }
 
@@ -73,10 +73,22 @@ export const worlds: World[] = [
 
 export const releases: Release[] = [
   {
+    version: 'V1.0.0',
+    date: '2026.09.30',
+    current: true,
+    additions: [
+      'Extra Levels - Deadly Level（与娱乐赛关卡相比有少量微调，差异可忽略）',
+      'Extra Levels - Rain Road',
+    ],
+    fixes: [],
+    adjustments: ['重构选关界面'],
+    href: 'https://pan.baidu.com/s/1EOD7O3CZfJ8rFYbvH8a1ww?pwd=ght4',
+    code: 'ght4',
+  },
+  {
     version: 'V0.9.0',
     date: '2026.08.10',
     period: '2026/7/23 ~ 2026/8/10',
-    current: true,
     additions: [
       'Boss Arena',
       'Extra Levels - Dark World(?) 1-1',
@@ -98,7 +110,7 @@ export const releases: Release[] = [
       '8-2 结尾部分削弱',
       '8-3 调整一些不太符合实际的地方',
     ],
-    href: game.download,
+    href: 'https://pan.baidu.com/s/1qBjWOlJKeItATaAykRMbIg?pwd=725p',
     code: '725p',
   },
   {
@@ -121,7 +133,7 @@ export const releases: Release[] = [
 ]
 
 export const resources: ResourceLink[] = [
-  { label: '下载最新版', href: game.download, detail: '百度网盘 · V0.9.0', kind: 'download', code: game.downloadCode },
+  { label: '下载最新版', href: game.download, detail: '百度网盘 · V1.0.0', kind: 'download', code: game.downloadCode },
   { label: '收听 BGM 歌单', href: game.music, detail: '网易云音乐 · 仅含可查曲目', kind: 'music' },
   { label: '访问原帖', href: game.forum, detail: 'Mario Forever 中文社区 · 作品讨论', kind: 'forum' },
 ]

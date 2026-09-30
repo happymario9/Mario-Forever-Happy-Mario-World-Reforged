@@ -8,8 +8,8 @@
 
 | 项目 | 内容 |
 |---|---|
-| 当前版本 | **V0.9.0** |
-| 最近更新 | 2026.08.10 |
+| 当前版本 | **V1.0.0** |
+| 最近更新 | 2026.09.30 |
 | 引擎 | Thunder Engine |
 | 世界数 / 主要关卡 | 8 / 32(主要关卡已全部完成) |
 | 形式 | Mario Forever 同人关卡合集 |
@@ -23,7 +23,7 @@
 | 网页档案(本站点) | <https://happymario9.github.io/Mario-Forever-Happy-Mario-World-Reforged/> |
 | 最新下载 · GitHub Releases | <https://github.com/happymario9/Mario-Forever-Happy-Mario-World-Reforged/releases/latest> |
 | Mario Forever 论坛原帖 | <https://www.marioforever.net/forum.php?mod=viewthread&tid=3853> |
-| 百度网盘镜像 · V0.9.0(提取码 `725p`) | <https://pan.baidu.com/s/1qBjWOlJKeItATaAykRMbIg?pwd=725p> |
+| 百度网盘镜像 · V1.0.0(提取码 `ght4`) | <https://pan.baidu.com/s/1EOD7O3CZfJ8rFYbvH8a1ww?pwd=ght4> |
 | BGM 歌单 · 网易云音乐 | <https://music.163.com/#/playlist?id=17978954676&uct2=U2FsdGVkX1/AaJJ1xrjcyYYNjIFWz/r21UQlYgx9wzE=> |
 
 最新版本发布在 GitHub Releases。上方另提供百度网盘镜像,使用时请注意提取码。欢迎在论坛原帖反馈你的体验。
@@ -45,13 +45,14 @@
 | 第七世界 | 雨夜世界 |
 | 第八世界 | 城堡最终挑战 |
 
-V0.9.0 继续扩展支线内容,新增 **Boss Arena**、**Dark World(?) 1-1** 与 **Windmill Wave**。此前的 **synthetic roto wave** 等额外关卡仍独立于八个主要世界之外。
+V1.0.0 新增 **Deadly Level** 与 **Rain Road**，并重构选关界面。Deadly Level 与娱乐赛关卡相比有少量微调，差异可忽略。此前的 **Boss Arena**、**Dark World(?) 1-1**、**Windmill Wave** 和 **synthetic roto wave** 等支线内容仍独立于八个主要世界之外。
 
 ## 版本历史
 
 | 版本 | 日期 | 亮点 | 下载 |
 |---|---|---|---|
-| **V0.9.0**(当前) | 2026.08.10 | Boss Arena;额外关卡 Dark World(?) 1-1 与 Windmill Wave;路易吉差异化;Credits 界面重做;修复 W7 通关界面进入 W8;多关卡平衡调整 | [百度网盘](https://pan.baidu.com/s/1qBjWOlJKeItATaAykRMbIg?pwd=725p)(提取码 `725p`) |
+| **V1.0.0**(当前) | 2026.09.30 | Extra Levels - Deadly Level（与娱乐赛关卡相比有少量微调，差异可忽略）；Extra Levels - Rain Road；重构选关界面 | [百度网盘](https://pan.baidu.com/s/1EOD7O3CZfJ8rFYbvH8a1ww?pwd=ght4)(提取码 `ght4`) |
+| V0.9.0 | 2026.08.10 | Boss Arena;额外关卡 Dark World(?) 1-1 与 Windmill Wave;路易吉差异化;Credits 界面重做;修复 W7 通关界面进入 W8;多关卡平衡调整 | [百度网盘](https://pan.baidu.com/s/1qBjWOlJKeItATaAykRMbIg?pwd=725p)(提取码 `725p`) |
 | V0.8.0 | 2026.07.22 | 第八世界;剧情过场 1-1 → 8-4;额外关卡 *synthetic roto wave*(PKMF8 第一轮);Credits 界面;选关界面上下世界自由选择;修复 4-4 Boss 与第六世界冰块问题 | [百度网盘](https://pan.baidu.com/s/1X5TOxB4vtWw3b8PLY3gAvg?pwd=nidc)(提取码 `nidc`) |
 | V0.7.0 | 2026.07.13 | 第七世界;7-3 / 7-4 难度将在后续版本小幅削弱 | [百度网盘](https://pan.baidu.com/s/1iZ0hp8lgCRCLIHfFn3AL7Q?pwd=jpt4)(提取码 `jpt4`) |
 | V0.6.0 | 2026.07.04 | 第六世界;第五世界完成动画 | [蓝奏云](https://wwanm.lanzouq.com/i7ym33uedz1c)(提取码 `h590`) |
