@@ -46,7 +46,7 @@ const en: Catalog = {
     download: 'Download latest',
     viewWorlds: 'View level archive',
     latestUpdate: 'LATEST UPDATE',
-    update: 'V1.0.0 · Deadly Level, Rain Road, and a refactored level selection scene',
+    update: 'V1.0.0 · Deadly Road, Rain Road, and a refactored level selection scene',
     viewChangelog: 'View full patch notes',
     project: 'THE PROJECT',
     overviewTitle: 'A level collection still growing',
@@ -91,7 +91,7 @@ const en: Catalog = {
     currentDescription: 'Contains {levels} main levels. Actual difficulty does not perfectly match the world number, so enter the challenge whenever you are ready.',
     bonus: 'BONUS STAGE',
     bonusTitle: 'More routes beyond the main path',
-    bonusDescription: 'V1.0.0 adds <b>Deadly Level</b> and <b>Rain Road</b>. Earlier side content, including Boss Arena, Dark World(?) 1-1, Windmill Wave, and synthetic roto wave, remains available outside the eight main worlds.',
+    bonusDescription: 'V1.0.0 adds <b>Deadly Road</b> and <b>Rain Road</b>. Earlier side content, including Boss Arena, Dark World(?) 1-1, Windmill Wave, and synthetic roto wave, remains available outside the eight main worlds.',
     extra: 'EXTRA',
     round: 'BOSS ARENA / EXTRA LEVELS',
     items: [
@@ -123,7 +123,7 @@ const en: Catalog = {
     code: 'Code',
     items: [
       {
-        additions: ['Extra Levels - Deadly Level', 'Extra Levels - Rain Road'],
+        additions: ['Extra Levels - Deadly Road', 'Extra Levels - Rain Road'],
         fixes: [],
         adjustments: ['Refactored the level selection scene'],
       },
@@ -206,7 +206,7 @@ const zh: Catalog = {
     download: '下载最新版',
     viewWorlds: '查看关卡档案',
     latestUpdate: 'LATEST UPDATE',
-    update: 'V1.0.0 · 新增 Deadly Level、Rain Road，重构选关界面',
+    update: 'V1.0.0 · 新增 Deadly Road、Rain Road，重构选关界面',
     viewChangelog: '查看完整更新日志',
     project: 'THE PROJECT',
     overviewTitle: '一份正在长大的关卡合集',
@@ -251,7 +251,7 @@ const zh: Catalog = {
     currentDescription: '包含 {levels} 个主要关卡。实际关卡难度与世界编号不完全对应，准备好后即可进入挑战。',
     bonus: 'BONUS STAGE',
     bonusTitle: '主线之外还有更多路线',
-    bonusDescription: 'V1.0.0 新增 <b>Deadly Level</b> 与 <b>Rain Road</b>。此前的 Boss Arena、Dark World(?) 1-1、Windmill Wave 和 synthetic roto wave 等支线内容仍独立于八个主要世界之外。',
+    bonusDescription: 'V1.0.0 新增 <b>Deadly Road</b> 与 <b>Rain Road</b>。此前的 Boss Arena、Dark World(?) 1-1、Windmill Wave 和 synthetic roto wave 等支线内容仍独立于八个主要世界之外。',
     extra: 'EXTRA',
     round: 'BOSS ARENA / EXTRA LEVELS',
     items: [
@@ -284,7 +284,7 @@ const zh: Catalog = {
     items: [
       {
         additions: [
-          'Extra Levels - Deadly Level（与娱乐赛关卡相比有少量微调，差异可忽略）',
+          'Extra Levels - Deadly Road',
           'Extra Levels - Rain Road',
         ],
         fixes: [],

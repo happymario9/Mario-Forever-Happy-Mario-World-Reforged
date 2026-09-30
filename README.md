@@ -45,13 +45,13 @@ This is a first experiment with Mario Forever made in Thunder Engine. Level name
 | World 7 | Rainy Night World |
 | World 8 | Final Castle Challenge |
 
-V1.0.0 adds **Deadly Level** and **Rain Road**, and refactors the level selection scene. Earlier side content, including **Boss Arena**, **Dark World(?) 1-1**, **Windmill Wave**, and **synthetic roto wave**, remains available outside the eight main worlds.
+V1.0.0 adds **Deadly Road** and **Rain Road**, and refactors the level selection scene. Earlier side content, including **Boss Arena**, **Dark World(?) 1-1**, **Windmill Wave**, and **synthetic roto wave**, remains available outside the eight main worlds.
 
 ## Release history
 
 | Version | Date | Highlights | Download |
 |---|---|---|---|
-| **V1.0.0** (current) | 2026.09.30 | Extra Levels - Deadly Level; Extra Levels - Rain Road; Refactored the level selection scene | [Baidu Netdisk](https://pan.baidu.com/s/1EOD7O3CZfJ8rFYbvH8a1ww?pwd=ght4) (code `ght4`) |
+| **V1.0.0** (current) | 2026.09.30 | Extra Levels - Deadly Road; Extra Levels - Rain Road; Refactored the level selection scene | [Baidu Netdisk](https://pan.baidu.com/s/1EOD7O3CZfJ8rFYbvH8a1ww?pwd=ght4) (code `ght4`) |
 | V0.9.0 | 2026.08.10 | Boss Arena; extra levels Dark World(?) 1-1 and Windmill Wave; Luigi variations; Credits scene remake; World 7 clear scene fix; multiple balance tweaks | [Baidu Netdisk](https://pan.baidu.com/s/1qBjWOlJKeItATaAykRMbIg?pwd=725p) (code `725p`) |
 | V0.8.0 | 2026.07.22 | World 8; story cutscenes 1-1 → 8-4; extra level *synthetic roto wave* (PKMF8 round 1); Credits screen; free up/down world selection; fixes to 4-4 Boss and World 6 ice block | [Baidu Netdisk](https://pan.baidu.com/s/1X5TOxB4vtWw3b8PLY3gAvg?pwd=nidc) (code `nidc`) |
 | V0.7.0 | 2026.07.13 | World 7; 7-3 / 7-4 difficulty to be reduced in a later version | [Baidu Netdisk](https://pan.baidu.com/s/1iZ0hp8lgCRCLIHfFn3AL7Q?pwd=jpt4) (code `jpt4`) |

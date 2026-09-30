@@ -77,7 +77,7 @@ export const releases: Release[] = [
     date: '2026.09.30',
     current: true,
     additions: [
-      'Extra Levels - Deadly Level（与娱乐赛关卡相比有少量微调，差异可忽略）',
+      'Extra Levels - Deadly Road',
       'Extra Levels - Rain Road',
     ],
     fixes: [],

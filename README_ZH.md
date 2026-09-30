@@ -45,13 +45,13 @@
 | 第七世界 | 雨夜世界 |
 | 第八世界 | 城堡最终挑战 |
 
-V1.0.0 新增 **Deadly Level** 与 **Rain Road**，并重构选关界面。Deadly Level 与娱乐赛关卡相比有少量微调，差异可忽略。此前的 **Boss Arena**、**Dark World(?) 1-1**、**Windmill Wave** 和 **synthetic roto wave** 等支线内容仍独立于八个主要世界之外。
+V1.0.0 新增 **Deadly Road** 与 **Rain Road**，并重构选关界面。Deadly Road 与娱乐赛关卡相比有少量微调，差异可忽略。此前的 **Boss Arena**、**Dark World(?) 1-1**、**Windmill Wave** 和 **synthetic roto wave** 等支线内容仍独立于八个主要世界之外。
 
 ## 版本历史
 
 | 版本 | 日期 | 亮点 | 下载 |
 |---|---|---|---|
-| **V1.0.0**(当前) | 2026.09.30 | Extra Levels - Deadly Level（与娱乐赛关卡相比有少量微调，差异可忽略）；Extra Levels - Rain Road；重构选关界面 | [百度网盘](https://pan.baidu.com/s/1EOD7O3CZfJ8rFYbvH8a1ww?pwd=ght4)(提取码 `ght4`) |
+| **V1.0.0**(当前) | 2026.09.30 | Extra Levels - Deadly Road（与娱乐赛关卡相比有少量微调，差异可忽略）；Extra Levels - Rain Road；重构选关界面 | [百度网盘](https://pan.baidu.com/s/1EOD7O3CZfJ8rFYbvH8a1ww?pwd=ght4)(提取码 `ght4`) |
 | V0.9.0 | 2026.08.10 | Boss Arena;额外关卡 Dark World(?) 1-1 与 Windmill Wave;路易吉差异化;Credits 界面重做;修复 W7 通关界面进入 W8;多关卡平衡调整 | [百度网盘](https://pan.baidu.com/s/1qBjWOlJKeItATaAykRMbIg?pwd=725p)(提取码 `725p`) |
 | V0.8.0 | 2026.07.22 | 第八世界;剧情过场 1-1 → 8-4;额外关卡 *synthetic roto wave*(PKMF8 第一轮);Credits 界面;选关界面上下世界自由选择;修复 4-4 Boss 与第六世界冰块问题 | [百度网盘](https://pan.baidu.com/s/1X5TOxB4vtWw3b8PLY3gAvg?pwd=nidc)(提取码 `nidc`) |
 | V0.7.0 | 2026.07.13 | 第七世界;7-3 / 7-4 难度将在后续版本小幅削弱 | [百度网盘](https://pan.baidu.com/s/1iZ0hp8lgCRCLIHfFn3AL7Q?pwd=jpt4)(提取码 `jpt4`) |
